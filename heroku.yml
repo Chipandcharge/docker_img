@@ -4,8 +4,6 @@ build:
     worker1: Dockerfile.smtp
     worker2: Dockerfile.db
     worker3: Dockerfile.clickhouse
-run:
-  web:
 release:
   image: web
   command:
