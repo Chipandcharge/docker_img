@@ -1,0 +1,9 @@
+FROM plausible/analytics:latest
+
+ENV ADMIN_USER_EMAIL=alex.kubsch@pm.me
+ENV ADMIN_USER_NAME=tracking-glasq
+ENV ADMIN_USER_PWD=13031994
+ENV BASE_URL=replace-me
+ENV SECRET_KEY_BASE=ZkAfQFouUQiIf8YhmNxalbn/yv0cIraTeLBzyeuTVFmPjq443oPhCmopm9a/Vu9cZt1A+1Ez1GkHuDGq8I+pRQ==
+
+EXPOSE 8000/tcp

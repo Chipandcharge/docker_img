@@ -1,0 +1,4 @@
+FROM yandex/clickhouse-server:latest
+
+VOLUME event-data:/var/lib/clickhouse
+
